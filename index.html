@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: grey">
+
+    <div id="menu" style="font-size: 2em">
+        <input type="checkbox" id="flexible-graph" name="option1" style="width:20px; height: 20px;">
+        <label for="option1">Flexible graph</label>
+        <button style="font-size: 0.8em" id="newgraph">New graph</button>
+        <label for="option2">Size:</label>
+        <input type="number" id="newgraphsize" name="option2" value="0" style="width:60px; height: 30px; font-size: 20px;">
+        <br>
+        <button style="font-size: 0.8em" id="newnode">New node</button>
+        <button style="font-size: 0.8em" id="connect">Connect nodes</button>
+        <input type="number" id="connect1" style="width:60px; height: 30px; font-size: 20px;">
+        <input type="number" id="connect2" style="width:60px; height: 30px; font-size: 20px;">
+        <br>
+        <button style="font-size: 0.8em" id="bfs">BFS</button>
+        <button style="font-size: 0.8em" id="dfs">DFS</button>
+        From<input type="number" id="searchfrom" style="width:60px; height: 30px; font-size: 20px;">
+        To<input type="number" id="searchto" style="width:60px; height: 30px; font-size: 20px;">
+
+    </div>
+
+    <canvas id="canvas"></canvas>
+    
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
